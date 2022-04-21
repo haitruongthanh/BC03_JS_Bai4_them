@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bai 4 JS Them</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="input w-50 mt-5 mx-auto">
+        <div class="title p-5 bg-success text-light text-center rounded-top">
+          <h2>Tính Thuế Thu Nhập Cá Nhân</h2>
+        </div>
+        <div class="content bg-dark p-5 text-light rounded-bottom">
+          <div class="form-group">
+            <label for="user_name">Nhập Tên</label>
+            <input
+              type="text"
+              name="user_name"
+              id="user_name"
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <label for="tong_thu_nhap">Nhập tổng thu nhập trong năm</label>
+            <input
+              type="text"
+              name="tong_thu_nhap"
+              id="tong_thu_nhap"
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <label for="so_nguoi_phu_thuoc">Nhập số người phụ thuộc</label>
+            <input
+              type="text"
+              name="so_nguoi_phu_thuoc"
+              id="so_nguoi_phu_thuoc"
+              class="form-control"
+            />
+          </div>
+          <button type="button" class="btn btn-primary" onclick="tinhThue()">
+            Tính Thuế TNCN
+          </button>
+        </div>
+        <p id="ket_qua" class="display-4"></p>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./bai1.js"></script>
+  </body>
+</html>
