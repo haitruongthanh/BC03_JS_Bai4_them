@@ -52,7 +52,7 @@ var tinhTienCapDoanhNghiep = function () {
 
   document.getElementById(
     "ket-qua"
-  ).innerHTML = `Tổng số tiền của khách hàng có mã ${maKhachHang} là ${ketQua}`;
+  ).innerHTML = `Tổng số tiền của khách hàng có mã ${maKhachHang} là ${ketQua}$`;
 };
 
 var tinhDichVuCoBan = function (soKetNoi) {
